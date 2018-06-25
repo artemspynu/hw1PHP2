@@ -17,14 +17,14 @@ class Basket
 
     function calcPrice()
     {
-        echo $this->count * $this->price = $this->totalPrice;
+        echo $this->totalPrice = $this->count * $this->price ;
     }
 }
 
 $goods = new Basket();
 $a->count = 1;
 $a->price = 3200;
-/*$a->totalPrice = count * price;*/
+$a->totalPrice = $this->count * $this->price;
 $a->calcPrice();
 
 
